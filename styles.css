@@ -1,5 +1,37 @@
 *{
     margin: 0;
     padding: 0; 
+    box-sizing: border-box;
+    
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.navbar-nav {
+    margin-right: 250px;
+}
+
+
+
+.dropdown-menu {
+    background-color:#343a40;
+    margin-top:7px;
+    margin-left: 5px;
+    border-radius: 0px;
+}
+
+.dropdown-item {
+    color: rgb(226, 159, 35);
+}
+
+
+
+
 
