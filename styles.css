@@ -61,16 +61,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-h1 {
+
+
+
+.intro h1 {
     background-color: rgba(93, 89, 89, 0.719);
     color: white;
     font-size: 60px;
     padding: 0px 20px;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 160px;
 }
 
 
@@ -154,15 +156,78 @@ h2 {
 /*Registraion page*/
 
 
-/*.register_page {
-    height: 100vh;
+.registration_page {
+    background: url(img/registraion.bg.jpg);
+    background-position: top;
+    background-attachment: fixed fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+}
+
+.academic_staff_registration{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 350px;
+    height: 750px ;
+    padding: 20px 30px;
+    margin: 30px 50px;
+}
+
+.register {
+    display: grid;
+    place-items: center;
+}
+.register_input {
     display: flex;
-    align-items: center;
-    margin-top: 100px;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+
+.register_input input{
+    box-sizing: border-box;
+    padding: 2px 35px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: left;
+    background-color:rgba(255, 255, 255, 0.767);
+    cursor: text;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.register_input label {
+    font-size: 16px;
     
 }
 
-.academic_staff_registration {
-    background: rgb(255, 0, 0);
+
+
+
+.register_input input:hover {
+    background-color:  #9cafc5;
 }
-*/
+
+.register_btn {
+    text-decoration: none;
+    padding: 5px 30px ;
+    border: 2px solid black;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    justify-content: center;
+    
+}
+
+.register_btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.twoforms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
