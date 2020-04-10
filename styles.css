@@ -194,16 +194,13 @@ h2 {
     background-color:rgba(255, 255, 255, 0.767);
     cursor: text;
     margin-bottom: 5px;
-    font-size: 14px;cle
+    font-size: 14px;
 }
 
 .register_input label {
     font-size: 16px;
     
 }
-
-
-
 
 .register_input input:hover {
     background-color:  #9cafc5;
@@ -234,6 +231,10 @@ h2 {
 
 /*unit details page*/
 
+.container {
+    margin-top: 100px;
+}
+
 table, th, td {
     border: 1px solid grey;
     padding-left: 10px;
@@ -261,8 +262,8 @@ table, th, td {
 }
 
 .brief-des p {
-    line-height: 25px;
-    width: 90%;
+    line-height: 32px;
+    width: 80%;
     margin-bottom: 20px;
 }
 
@@ -288,4 +289,48 @@ table, th, td {
     color: rgb(255, 255, 255);
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+/*Unit Enrolment Page*/
+
+.enrolment-page {
+    height: 150vh;
+}
+
+.units{
+    border: 1px solid grey;
+    padding-left: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.enrol-table tr th {
+    padding: 5px 30px;
+
+}
+.enrol-table {
+    margin: 20px;
+}
+.enrol-table td {
+    text-align: center;
+    padding-right: 15px;
+}
+
+.enrol-now {
+    background-color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.enrol-now:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
