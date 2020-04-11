@@ -337,7 +337,7 @@ table, th, td {
 
 
 
-/*Mastepage for academic staff.html*/
+/*Mastepage for academic staff*/
 
 .academic-staff {
     height: 150vh;
@@ -351,7 +351,6 @@ table, th, td {
 }
 
 .staff-list td {
-    text-align: center;
     padding-right: 15px;
     padding: 7px 20px;
 }
@@ -376,3 +375,72 @@ table, th, td {
 #btn-list {
     margin-left: 30px;
 }
+
+/*Mastepage for Unit details*/
+
+.Masterpage-units {
+    height: 170vh;
+}
+
+.DC-access {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.DC-access-login {
+    background-color: #cacfd6a4;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.DC-access-login input {
+    margin-left: 20px;
+    vertical-align: middle;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.unit-offer{
+    margin-top: 20px;
+}
+.unit-offer tr th {
+    padding: 7px 30px;
+}
+
+.unit-offer td {
+    padding-right: 15px;
+    padding: 7px 20px;
+}
+
+#access {
+    margin-bottom:10px;
+}
+
+#acc-btn {
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 5px 30px ;
+    border: 2px solid black;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    justify-content: center;
+}
+
+#acc-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/*spacial work on later
+.container1 {
+    display: none; 
+}
+*/
