@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UDW | Registration</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="Registration.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <link rel="icon" href="img/icon.png">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -55,39 +57,39 @@
       <br>
       <div class="twoforms">
         <div class="form-1">
-          <form class="academic_staff_registration">
+          <form class="academic_staff_registration" onsubmit="return validate()">
             <div class="register">
               <h2>Staff Registration</h2>
         
               <div class="register_input">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder=" Your Name">
+                <input type="text" id="name" name="name" placeholder=" Your Name" value="">
     
                 <label for="staffid">Staff ID:</label>
-                <input type="text" id="staffid" name="staffid" placeholder=" Your Staff ID">
+                <input type="text" id="staffid" name="staffid" placeholder=" Your Staff ID" value="">
     
                 <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" placeholder="Your Email Address">
+                <input type="email" id="email" name="email" placeholder="Your Email Address" value="">
     
                 <label for="password">Password:</label>
-                <input type="password" id="Password" name="Password" placeholder="Your password">
+                <input type="password" id="password" name="password" placeholder="Your password" value="">
     
                 <label for="confirm-password">Confirm Password:</label>
-                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Your password">
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Your password" value="">
     
                 <label for="address">Address:</label>
-                <input type="text" id="address" name="address" placeholder="Your Address">
+                <input type="text" id="address" name="address" placeholder="Your Address" value="">
     
                 <label for="qualification">Qualification:</label>
-                <input type="text" id="qualification" name="qualification" placeholder="Your Qualification">
+                <input type="text" id="qualification" name="qualification" placeholder="Your Qualification" value="">
     
                 <label for="expertise">Expertise:</label>
-                <input type="text" id="expertise" name="expertise" placeholder="Your Expertise">
+                <input type="text" id="expertise" name="expertise" placeholder="Your Expertise" value="">
     
                 <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number"><br>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" value=""><br>
     
-                <button class="register_btn">Register</button>
+                <button class="register_btn" onclick="return validate()" value="submit">Register As A Staff</button>
               </div>
         
             </div>
@@ -97,36 +99,36 @@
         
         
         <div class="form-2">
-          <form class="academic_staff_registration">
+          <form class="academic_staff_registration" onsubmit="return studentformValidation()">
             <div class="register">
               <h2>Student Registration</h2>
         
               <div class="register_input">
                 <label for="name">Name:</label>
-                <input type="text" id="name2" name="name" placeholder=" Your Name">
+                <input type="text" id="name2" name="name" placeholder=" Your Name" value="">
     
-                <label for="staffid">Student ID:</label>
-                <input type="text" id="studentid" name="staffid" placeholder=" Your Staff ID">
+                <label for="studentid">Student ID:</label>
+                <input type="text" id="studentid" name="studentid" placeholder=" Your Student ID" value="">
     
                 <label for="email">Email Address:</label>
-                <input type="email" id="email2" name="email" placeholder="Your Email Address">
+                <input type="email" id="email2" name="email2" placeholder="Your Email Address" value="">
     
                 <label for="password">Password:</label>
-                <input type="password" id="Password2" name="Password" placeholder="Your password">
+                <input type="password" id="password2" name="password2" placeholder="Your password" value="">
     
                 <label for="confirm-password">Confirm Password:</label>
-                <input type="password" id="confirm-password2" name="confirm-password" placeholder="Confirm Your password">
+                <input type="password" id="confirm-password2" name="confirm-password2" placeholder="Confirm Your password" value="">
                 
                 <label for="dateofbirth">Date Of Birth:</label>
-                <input type="text" id="dateofbirth" name="dateofbirth" placeholder="You Date Of Birth">
+                <input type="text" id="dateofbirth" name="dateofbirth" placeholder="You Date Of Birth" value="">
 
                 <label for="address">Address:</label>
-                <input type="text" id="address2" name="address" placeholder="Your Address">
+                <input type="text" id="address2" name="address" placeholder="Your Address" value="">
 
                 <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone2" name="phone" placeholder="Your Phone Number"><br>
-    
-                <button class="register_btn">Register</button>
+                <input type="tel" id="phone2" name="phone" placeholder="Your Phone Number" value=""><br>
+                <br><br>
+                <button class="register_btn" onclick="return studentformValidation()">Register As A Student</button>
               </div>
         
             </div>

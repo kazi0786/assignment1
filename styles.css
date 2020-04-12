@@ -158,12 +158,12 @@ h2 {
 
 
 .registration_page {
-    background: url(img/registraion.bg.jpg);
+    background-color: #89929c93;
     background-position: top;
     background-attachment: fixed fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150vh;
+    height: 200vh;
 }
 
 .academic_staff_registration{
