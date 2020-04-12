@@ -444,3 +444,64 @@ table, th, td {
     display: none; 
 }
 */
+
+
+
+/*Time table*/
+
+
+.timetable {
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.timetable h1 {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+#time {
+    border: 1px solid grey;
+}
+
+#time tr th {
+    padding: 7px 30px;
+}
+
+#time td {
+    padding: 1px 20px;
+}
+
+
+
+.tut {
+    color: black;
+    background-color: rgba(255, 0, 0, 0.513);
+    padding: 1px 10px;
+    font-size: 16px;
+    font-weight: 900;
+
+}
+
+.time-btn {
+    background-color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-weight: 450;
+    letter-spacing: 1px;
+}
+
+.time-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+#btn-time {
+    margin-left: 30px;
+}
