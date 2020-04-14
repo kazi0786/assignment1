@@ -357,7 +357,7 @@ table, th, td {
 }
 
 .staff-list td {
-    padding-right: 15px;
+    padding-right: 10px;
     padding: 7px 20px;
 }
 
@@ -444,14 +444,6 @@ table, th, td {
     background-color: black;
     color: white;
 }
-
-/*spacial work on later
-.container1 {
-    display: none; 
-}
-*/
-
-
 
 /*Time table*/
 
